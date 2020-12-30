@@ -1,5 +1,8 @@
 # Visualizing Species Migration in Sublimated Matrix for MALDI-IMS
-This is an archive for the R codes used to plot the heatmaps and line charts for the MALDI-TOF IMS results included in the publication listed below.
+This is an archive for the R codes used to plot the heatmaps and line charts for the MALDI-TOF IMS results included in the publication listed below. The goal of this project was to characterize the degree of vertical migration of species from the samples into the matrix layer post sublimation. Multiple spectra were obtained on the same spot in order to obtain a profile of the species present at different depths of the matrix down to the tissue layer.
+
+## Data Format
+The data analyzed are obtained from the Bruker Ultraflex system with flexControl 3.4 and quadratic calibration. Multiple spectra were obtained on the same point with the same filename. As such, within one folder, there is a subfolder of the spot coordinate and within that, a list of folders numbered in the order the spectra were acquired. This allowed for correlation between folder number and sampling depth.
 
 ## Files
 
